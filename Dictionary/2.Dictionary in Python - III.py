@@ -1,4 +1,4 @@
-https://www.geeksforgeeks.org/problems/dictionary-in-python-iii/1&selectedLang=python3
+#https://www.geeksforgeeks.org/problems/dictionary-in-python-iii/1&selectedLang=python3
 
 # insert into dictionary
 def insert_dict(query, dict):

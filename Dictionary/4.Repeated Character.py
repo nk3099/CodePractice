@@ -28,6 +28,37 @@ class Solution:
 #float('inf')
 #This represents infinity, which is guaranteed to be greater 
 #than any integer value in the string indices.
+
+
+#---OR----
+
+class Solution:
+    def firstRep(self, s):
+        
+        pos={}
+        
+        for i in s:
+            if i in pos:
+               pos[i]+=1
+            else:
+                pos[i]=1
+        
+        # iterating over the string again
+        for i in s:
+            # checking if the frequency of the character is greater than 1
+            if pos[i]>1: 
+                # if yes, return the character
+                return i
+                        # creating an empty dictionary to store the frequency of each character
+      
+
+        # if no repeated characters found, return -1
+        return -1
+        
+                
+                
+
+            
                     
         
                 

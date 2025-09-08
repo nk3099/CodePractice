@@ -35,4 +35,6 @@ class Solution:
         This means you're trying to access ans[i] before it exists, 
         which happens when you use ans[i] = ... or ans[i].append(...) 
         on an empty or short list.
+
+        AttributeError: 'int' object has no attribute 'append' => as .append() only works on lists
         """
